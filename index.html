@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aprendendo Array</title>
+</head>
+<body>
+    <header class="one-bit-code">
+        <img src="image/onebit.jpeg" alt="onebit" width="100px">
+        <p>Exercicios - Praticando array</p>
+    </header>
+    <div class="exercicio">
+        <ol>
+            <li>Temos abaixo, uma array bidimensional de naves que estao engatadas numa estacao espacial</li>
+            <li>Para cada sub-array, a primeira posicao é o nome da nave, a seunda é a quantidade de tripulantes e a terceira informa se o processo de engate ja foi concluido ou nao.</li>
+            <li>Nesta lista, a plataforma de engate que a nave está parada é o [indice da nave no array + 1]</li>
+            <img src="image/array-exercicio.png" alt="array" width="300px" height="200px">
+            <li>
+                <ol>Com base neste array queremos:
+                    <li>Filtrar o nome das naves que tem mais de 9 tripulantes</li>
+                    <li>Informar o numero da plataforma em que está a primeira nave que ainda está com engate pendente</li>
+                    <li>Destacar o nome de todas as naves colocando-as em caixa alta e exibindo</li>
+                    <li>Exibir na tela todas as informacoes</li>
+                </ol>
+            </li>
+        </ol>
+        <button onclick="gerarInfo()">Gerar dados</button>
+        <h1>Resultado: </h1>
+    </div>
+    <div id="arrayJavaScript">
+    </div>
+    <script src="array.js"></script>
+</body>
+</html>
